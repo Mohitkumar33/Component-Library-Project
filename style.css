@@ -10,6 +10,7 @@ body{
 font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Open Sans', sans-serif;
 width: 100%;
+margin-bottom: 0px;
 }
 
 a {
@@ -46,10 +47,16 @@ a {
   --txt-large: 3rem;
   --txt-ex-large: 4rem;
 }
+.navigation {
+    border-bottom: 2px solid var(--light-gray);
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+}
 .brand {
     display: flex;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
    
 }
 .brand-name-a {
@@ -57,17 +64,13 @@ a {
     font-size: var(--txt-medium);
     color: var(--secondary-color);
     margin-left: 1rem;
+    font-size: 1.5rem;
 }
 .brand-name-b {
     font-weight: bolder;
     font-size: var(--txt-large);
     color: var(--primary-color);
-}
-.navigation {
-    border-bottom: 2px solid var(--light-gray);
-    border-bottom-left-radius: 5px;
-    display: flex;
-    align-items: center;
+    font-size: 2rem;
 }
 .navigation about {
     margin-left: auto;
@@ -76,37 +79,37 @@ a {
 .navigation about a {
     color: var(--bg-primary);
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     align-items: center;
-    height: 55rem;
-    width: 60rem;
+    height: 40rem;
+    /* width: 50rem; */
     margin: auto;
 
 }
 .container-image {
-    height: 10rem;
-    margin-top: 5rem;
+    height: 8rem;
+    margin-top: 4rem;
 }
 .container h1{
-    margin-top: 7rem;
-    font-size: 2.5rem;
+    margin-top: 6rem;
+    font-size: 2rem;
     text-align: center;
     color: var(--primary-color);
 }
 .container p{
-    font-size: var(--txt-medium);
+    font-size: 1.5rem;
     text-align: center;
     margin: 0px 0px 20px 0px;
 }
 .container button {
     margin-top: 1.2rem;
-    padding: 1rem 2rem;
+    padding: 0.6rem 1.5rem;
     background-color: var(--primary-color);
     color: var(--txt-light);
     font-size: var(--txt-medium);
@@ -120,13 +123,13 @@ a {
 
 .installation {
     display: flex;
-    height: 35rem;
+    /* height: 10rem; */
     align-content: center;
     justify-content: center;
     gap: 1.5rem;
 }
 .installation-guide {
-    padding: 3rem;
+    padding: 2.5rem;
     width: 31.25rem;
     height: 12.5rem;
     background-color: rgb(228, 226, 226);
@@ -137,12 +140,26 @@ a {
     font-size: var(--txt-medium);
 }
 .installation-guide p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .code-installation-frame {
-    padding: 3rem;
+    padding: 2.5rem;
     width: 31.25rem;
     height: 12.5rem;
     background-color: rgb(228, 226, 226);
     border-radius: 10px;
+}
+
+footer {
+    /* position: absolute; */
+/* flex-shrink: 0; */
+margin-top: 12.5rem;
+margin-bottom: 0px;
+background-color: rgb(228, 226, 226);
+padding: 0.8rem;
+display: flex;
+justify-content: flex-end;
+}
+footer a{
+    padding: 0.4rem 1rem;
 }
