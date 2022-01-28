@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Nanum+Gothic:wght@400;700&family=Open+Sans:wght@300;400&display=swap');
+ul,li {
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 245, 219);
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Open Sans', sans-serif;
+width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    /* colors */
+  --bg-white: #f4f4f4;
+  --bg-dark: #333;
+  --bg-primary: #94618e;
+  --bg-secondary: #49274a;
+  --bg-sand: #f4decb;
+  --primary-color: #076836;
+  --secondary-color: #299C0C;
+  --light-gray: rgba(172, 171, 171, 0.425);
+  --txt-primary: #dcd6f7;
+  --txt-secondary: #d1d4e4;
+  --txt-dark: #333;
+  --txt-light: #f8f9ff;
+  /* padding and margin */
+  --padding-small: 0.5rem;
+  --padding-medium: 1rem;
+  --padding-large: 1.5rem;
+  --padding-extra-large: 2rem;
+  --margin-small: 0.5rem;
+  --margin-medium: 1rem;
+  --margin-large: 1.5rem;
+  --margin-extra-large: 2rem;
+  --container-width: 90%;
+  /* font-size */
+  --txt-small: 1rem;
+  --txt-medium: 2rem;
+  --txt-large: 3rem;
+  --txt-ex-large: 4rem;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+   
+}
+.brand-name-a {
+    font-weight: bold;
+    font-size: var(--txt-medium);
+    color: var(--secondary-color);
+    margin-left: 1rem;
+}
+.brand-name-b {
+    font-weight: bolder;
+    font-size: var(--txt-large);
+    color: var(--primary-color);
+}
+.navigation {
+    border-bottom: 2px solid var(--light-gray);
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.navigation about {
+    margin-left: auto;
+    margin-right: 2rem;
+}
+.navigation about a {
+    color: var(--bg-primary);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    height: 55rem;
+    width: 60rem;
+    margin: auto;
+
+}
+.container-image {
+    height: 10rem;
+    margin-top: 5rem;
+}
+.container h1{
+    margin-top: 7rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+.container p{
+    font-size: var(--txt-medium);
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.container button {
+    margin-top: 1.2rem;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--txt-light);
+    font-size: var(--txt-medium);
+    border-radius: 2.4rem;
+}
+.button-icon {
+    height: 1.4rem;
+    width: 1.5rem;
+
+}
+
+.installation {
+    display: flex;
+    height: 35rem;
+    align-content: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.installation-guide {
+    padding: 3rem;
+    width: 31.25rem;
+    height: 12.5rem;
+    background-color: rgb(228, 226, 226);
+    border-radius: 10px;
+}
+.installation-guide h1{
+    margin-top: 0px;
+    font-size: var(--txt-medium);
+}
+.installation-guide p{
+    font-size: 1.5rem;
+}
+.code-installation-frame {
+    padding: 3rem;
+    width: 31.25rem;
+    height: 12.5rem;
+    background-color: rgb(228, 226, 226);
+    border-radius: 10px;
+}
