@@ -127,6 +127,7 @@ a {
     align-content: center;
     justify-content: center;
     gap: 1.5rem;
+    flex-wrap: wrap;
 }
 .installation-guide {
     padding: 2.5rem;
