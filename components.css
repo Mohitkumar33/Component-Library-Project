@@ -1,0 +1,249 @@
+body {
+    margin: 0px;
+    display: flex;
+}
+*{
+    box-sizing: border-box;
+}
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+:root {
+    --primary-color: #076836;
+    --secondary-color: rgb(234, 245, 219);
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* width: 6.5rem; */
+    padding: 3.15rem;
+    background-color: var(--secondary-color);
+    /* flex-grow: 1; */
+    flex-wrap: wrap;
+    position: fixed;
+    /* justify-content: center; */
+    align-items: center;
+    border-right: 4px solid var(--primary-color);
+    z-index: 2;
+}
+nav h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+nav a {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: black;
+}
+nav a:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14.7rem;
+    /* background-color: greenyellow; */
+    flex-grow: 1;
+    z-index: 1;
+    /* position: relative; */
+    
+    /* width: 900px; */
+    /* margin: auto; */
+    /* overflow-y: scroll; */
+}
+.main-nav {
+    position: sticky;
+    font-size: 2rem;
+    padding: 00.2rem;
+    top: 0;
+    border-radius: 5px;
+    color: var(--primary-color);
+    background-color: #a9e9c8;
+    z-index: 2;
+}
+.avatar-small, .avatar-medium, .avatar-large {
+    padding: 0.1rem;
+    border-radius: 50%;
+    margin: 1rem;
+    margin-bottom: 8px;
+}
+.avatar-small {
+    height: 3rem;
+    width: 3rem;
+    background-color: violet;
+}
+.avatar-medium {
+    height: 4rem;
+    width: 4rem;
+    background-color: violet;
+}
+
+.avatar-large {
+    height: 5rem;
+    width: 5rem;
+    background-color: violet;
+}
+.avatar-images {
+    /* padding: 1rem; 84D7A0*/
+    
+}
+iframe {
+    /* margin-left: 100px; */
+    margin: auto;
+    z-index: 1;
+}
+
+.success-alert, .danger-alert, .warning-alert, .info-alert {
+    font-size: 1.2rem;
+    width: 25rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.success-alert {
+    background-color: rgb(202, 235, 202);
+    border: 1px solid rgb(10, 87, 10);
+}
+.danger-alert {
+    background-color: rgba(230, 106, 106, 0.514);
+    border: 1px solid rgba(235, 17, 17, 0.87);
+}
+.warning-alert {
+    background-color: rgba(255, 208, 0, 0.384);
+    border: 1px solid rgb(143, 117, 3);
+}
+.info-alert {
+    background-color: rgba(165, 205, 243, 0.596);
+    border: 1px solid rgba(5, 59, 109, 0.904);
+}
+
+.badge-display {
+display: grid;
+}
+.badge-notification {
+    padding: 0.7rem;
+ 
+}
+.badge-notification button, .badge-inbox button, .badge-profile button{
+    background-color: rgb(56, 128, 221);
+    color: white;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: transparent;
+    position: relative;
+
+}
+.badge-notification button{
+    padding-right: 2rem;
+
+}
+.marker-notification {
+    position: absolute;
+    background-color: rgba(85, 85, 83, 0.788);
+    right: 8px;
+    top: 8px;
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+
+.badge-inbox{
+    padding: 0.7rem;
+}
+.marker-inbox {
+    position: absolute;
+    right: -15px;
+    top: -8px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: rgb(230, 76, 76);
+}
+.badge-profile {
+    padding: 0.7rem;
+
+}
+.marker-profile {
+    position: absolute;
+    right: -8px;
+    top: -5px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(230, 76, 76);
+}
+.badge-icon {
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+.badge-icon svg{
+width: 35px;
+height: 35px;
+}
+.marker-icon {
+    position: absolute;
+    right: -3px;
+    top: -4px;
+    padding: 1px 4px;
+    border-radius: 15px; 
+    background-color: rgb(230, 76, 76);
+    color: white;
+}
+.button-display button {
+    padding: 0.6rem;
+    margin: 1rem;
+}
+.primary-btn {
+    background-color: rgb(56, 128, 221);
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.secondary-btn {
+    background-color: gray;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.success-btn {
+    background-color: green;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.danger-btn {
+    background-color: red;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
+.warning-btn {
+    background-color: rgba(223, 167, 47, 0.795);
+    border: transparent;
+    color: black;
+    border-radius: 5px;
+}
+.info-btn {
+    background-color: rgb(107, 201, 238);
+    border: transparent;
+    color: black;
+    border-radius: 5px;
+}
+.light-btn {
+    background-color: rgba(233, 229, 229, 0.562);
+    border: transparent;
+    color: black;
+    border-radius: 5px;
+}
+.dark-btn {
+    background-color: black;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
