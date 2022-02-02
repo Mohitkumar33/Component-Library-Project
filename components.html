@@ -320,7 +320,9 @@
                 We have responsive images which can switch according to the resolution of the display or density of the display or the art direction.
                 <div class="image-display">
                     <div>
-                        density switching
+                        <h3>Density switching</h3>
+                        <p>Density switching allows the website to switch across differnent DPI.</p>
+                        <p>For example our website will load very good image on good display and average quality image on low display</p>
                         <img srcset="images/rose.jpeg 1x, images/flower.jpg 2x" style="height:150px; width:170px" alt="">
                     </div>
                     <iframe
@@ -329,7 +331,8 @@
   sandbox="allow-scripts allow-same-origin">
 </iframe>
                     <div>
-                        art direction
+                        <h3>Art Direction</h3>
+                        <p>We can switch the images based on the art direction that is landscape or protrait</p>
                         <picture>
                             <source media="(min-width: 600px)" srcset="images/flower.jpg" style="height:150px; width:170px">
                             <img srcset="images/rose.jpeg" style="height:150px; width:170px">
@@ -341,21 +344,23 @@
 </iframe>
                     </div>
                     <div>
-                        resolution switching
+                        <h3>Resolution switching</h3>
+                        <p>We can switch images from the data base of images according to the resolution of the display.</p>
                         <img src="images/flower200.jpg"
                         sizes="(min-width: 600px) 300px, 200px"
                         srcset="
                         images/flower300.jpg 300w,
                         images/flower200.jpg 200w"
                         />
-                        <iframe
+                    </div>
+                    <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520resolution%2520switching%2520image%250A%253Cimg%2520src%253D%2522images%252Fflower200.jpg%2522%250Asizes%253D%2522%28min-width%253A%2520600px%29%2520300px%252C%2520200px%2522%250Asrcset%253D%2522%250Aimages%252Fflower300.jpg%2520300w%252C%250Aimages%252Fflower200.jpg%2520200w%2522%250A%252F%253E"
   style="width: 367px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
-                    </div>
                     <div>
-                        lazy image loading
+                        <h3>Lazy image Loading</h3>
+                        <p>Using this attribute we will only load those images when that image is on view port.</p>
                         <img src="images/flower300.jpg" style="height:150px; width:170px" loading="lazy" alt="">
                         <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520lazy%2520loading%2520image%250A%253Cimg%2520src%253D%2522images%252Fflower300.jpg%2522%2520style%253D%2522height%253A150px%253B%2520width%253A170px%2522%2520loading%253D%2522lazy%2522%2520alt%253D%2522%2522%253E"
@@ -373,6 +378,8 @@
             <div>
                 Here are multiple input types you can use according to your need.
                 <div class="input-display">
+                    <h3> Radio button Input</h3>
+                    <p>Here you can click on only one option out of many options</p>
                     <div class="radio-input">
                         <label><input type="radio" value="Option 1" name="item1"/>Option 1</label>
                         <label><input type="radio" value="Option 2" name="item1"/>Option 2</label>
@@ -383,6 +390,8 @@
   style="width: 696px; height: 186px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+                    <h3>Checkbox button input</h3>
+                    <p>With the help of this you can select multiple options</p>
                     <div class="checkbox-input">
                         <label><input type="checkbox">One</label>
                         <label><input type="checkbox">Two</label>
@@ -393,6 +402,8 @@
   style="width: 435px; height: 186px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+                    <h3>Slider Input</h3>
+                    <p>You can select any value between the range just by sliding the slider</p>
                     <div class="slider-input">
                         <input type="range" id="points" name="points" min="0" max="5000">
                     </div>
@@ -401,6 +412,8 @@
   style="width: 620px; height: 149px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+                    <h3>Simple text input</h3>
+                    <p>These are the simple text input to take the input from the user.</p>
                     <div class="simple-input">
                         <input type="text" placeholder="userid">
                         <input type="text" placeholder="password">
@@ -410,7 +423,8 @@
   style="width: 426px; height: 167px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
-                    
+                    <h3>Text input with mic button</h3>
+                    <p>This is the text input with the mic button</p>
                     <div class="mic-input">
                         <section class="search-bar-container">
                         <div id="search-icon"><img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/15/000000/external-search-ui-dreamstale-lineal-dreamstale.png"/></div>
