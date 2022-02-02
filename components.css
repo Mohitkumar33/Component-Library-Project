@@ -479,3 +479,45 @@ height: 35px;
     border-radius: 2px;
     color: white;
 }
+
+.search-bar-container {
+    position: relative;
+    text-align: center;
+    width: 600px;
+}
+
+#search-icon, #voice-icon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-icon{
+    left: 18px;
+}
+
+#voice-icon {
+    right: 18px;
+}
+
+#voice-icon:hover{
+    cursor: pointer;
+}
+.search-bar {
+    width: 600px;
+    margin: 20px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border:2px solid #b9b8b8;
+    outline: 0;
+}
+.search-bar-container input {
+    margin: 20px 0px;
+
+}
+.search-bar:hover {
+    box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+}
