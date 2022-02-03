@@ -607,10 +607,10 @@ navmobile {
     
     .navbar-links.active {
         display: flex;
+        /* justify-content: center; */
     }
-    .navbar-links {
+    .navbar-links{
         display: none;
-        width: 100%;
     }
     .navbar {
         flex-direction: column;
@@ -618,7 +618,6 @@ navmobile {
     }
     .nav-links ul {
         width: 100%;
-        flex-direction: column;
     }
     .navbar-links li a {
         padding: 0.3rem 1rem;
@@ -626,7 +625,9 @@ navmobile {
         color: black;
     }
     .navbar-links li {
-        text-align: center;
+        text-align: left;
     }
-
+    ul {
+        margin-block-start: 0px;
+    }
 }
