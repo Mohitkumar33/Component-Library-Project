@@ -4,7 +4,8 @@
     width: 37.5rem;
 }
 
-#search-icon, #voice-icon {
+#search-icon,
+#voice-icon {
     position: absolute;
     top: 0;
     height: 100%;
@@ -13,7 +14,7 @@
     align-items: center;
 }
 
-#search-icon{
+#search-icon {
     left: 18px;
 }
 
@@ -21,21 +22,24 @@
     right: 18px;
 }
 
-#voice-icon:hover{
+#voice-icon:hover {
     cursor: pointer;
 }
+
 .search-bar {
     width: 37.5rem;
     margin: 20px;
     padding: 10px 40px;
     border-radius: 20px;
-    border:2px solid #b9b8b8;
+    border: 2px solid #b9b8b8;
     outline: 0;
 }
+
 .search-bar-container input {
     margin: 20px 0px;
 
 }
+
 .search-bar:hover {
     box-shadow: 0 0 10px 2px rgb(233, 233, 233);
 }

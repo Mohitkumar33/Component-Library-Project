@@ -8,6 +8,7 @@
     /* position: fixed;
     bottom: 0; */
 }
+
 .toast-2 {
     height: 40px;
     width: 600px;
@@ -18,6 +19,7 @@
     /* position: fixed;
     bottom: 0; */
 }
+
 .toast-3 {
     height: 150px;
     width: 350px;
@@ -32,12 +34,14 @@
     /* position: fixed;
     bottom: 0; */
 }
+
 .toast-3 h3 {
     margin-bottom: 0;
     margin-top: 10px;
 
 }
-.toast-cross{
+
+.toast-cross {
     height: 24px;
     width: 24px;
     position: absolute;
@@ -45,6 +49,7 @@
     fill: rgb(126, 125, 125);
     gap: 50 px;
 }
+
 .toast-cross:hover {
     fill: red;
 }

@@ -1,14 +1,18 @@
-.avatar-small, .avatar-medium, .avatar-large {
+.avatar-small,
+.avatar-medium,
+.avatar-large {
     padding: 0.1rem;
     border-radius: 50%;
     margin: 1rem;
     margin-bottom: 8px;
 }
+
 .avatar-small {
     height: 3rem;
     width: 3rem;
     background-color: violet;
 }
+
 .avatar-medium {
     height: 4rem;
     width: 4rem;
