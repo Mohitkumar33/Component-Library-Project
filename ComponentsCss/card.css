@@ -37,6 +37,7 @@
 }
 .card-icon:hover {
     color: red;
+    fill: red;
 }
 .card-2 {
     height: 16.62rem;

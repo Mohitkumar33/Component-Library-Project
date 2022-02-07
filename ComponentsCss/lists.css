@@ -1,0 +1,19 @@
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.list-stacked {
+    width: 300px;
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
+    margin-left: 0px;
+    text-align: center;
+}
+.list-stacked li{
+    border: 1px solid rgb(83, 83, 83);
+}

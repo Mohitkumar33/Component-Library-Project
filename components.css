@@ -5,3 +5,10 @@
 @import url(ComponentsCss/card.css);
 @import url(ComponentsCss/image.css);
 @import url(ComponentsCss/input.css);
+@import url(ComponentsCss/text-utilities.css);
+@import url(ComponentsCss/lists.css);
+@import url(ComponentsCss/navigation.css);
+@import url(ComponentsCss/modal.css);
+@import url(ComponentsCss/rating.css);
+@import url(ComponentsCss/toast.css);
+@import url(ComponentsCss/simplified-grid.css);
