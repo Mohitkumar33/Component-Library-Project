@@ -10,9 +10,27 @@ Now for anybody who want to review my code of component library.
 I know its difficult to find out how the files are working in the project and what is the entry point and how to view the code efficiently and easily and in less time. Then you can view the file structure below that will help you and also if you find any issues with the code, you are most welcome to review my code and correct my mistakes.
 
 There are 
-1. three html files in my component library (index.html, components.html, about.html)
-2. three css files (style.css, blockcomponents.css, components.css)
-3. two folders (images, ComponentsCss)
-4. two JavaScript files(script.js, components.js)
+1. three html files in my component library (**index.html, components.html, about.html**)
+2. three css files (**style.css, blockcomponents.css, components.css**)
+3. two folders (**images, ComponentsCss**)
+4. two JavaScript files(**script.js, components.js**)
 
-Now index.html, style.css and script.js consists of the main(documentation) page of the component library
+<br/>
+<br/>
+
+Now **```index.html, style.css, about.html and script.js```** contains
+1. The main(documentation) page of the component library.
+2. **index.html and style.css** contains the html and css for the main page
+3. **script.js and about.html** don't contain any code right now
+
+
+<img src="images/main_page.PNG">
+<br/>
+<br/>
+
+Now the **```components.html, blockcomponents.css, components.js, components.css```** consists of the components page of the component library.
+1. **component.html and blockcomponents.css** contains the html and css for the components page
+2. **components.js** contains the **navbar button** functionality for the **mobile**
+3. **components.css** contains the import statemet of different components from the **ComponentsCss folder**.
+4. **images folder** contains the images used in this project
+<img src = "images/components_page.PNG">
