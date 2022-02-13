@@ -1,0 +1,60 @@
+.button-display button {
+    padding: 0.6rem;
+    margin: 1rem;
+}
+
+.primary-btn {
+    background-color: rgb(56, 128, 221);
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.secondary-btn {
+    background-color: gray;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.success-btn {
+    background-color: green;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.danger-btn {
+    background-color: red;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+.warning-btn {
+    background-color: rgba(223, 167, 47, 0.795);
+    border: transparent;
+    color: black;
+    border-radius: 5px;
+}
+
+.info-btn {
+    background-color: rgb(107, 201, 238);
+    border: transparent;
+    color: black;
+    border-radius: 5px;
+}
+
+.light-btn {
+    background-color: rgba(233, 229, 229, 0.562);
+    border: transparent;
+    color: black;
+    border-radius: 5px;
+}
+
+.dark-btn {
+    background-color: black;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+}

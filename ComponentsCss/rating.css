@@ -1,0 +1,12 @@
+/************* Rating ************/
+.star-rating {
+    height: 24px;
+    width: 24px;
+    stroke-width: 1;
+    fill: none
+}
+
+.star-rating:hover {
+    stroke-width: 2;
+    fill: yellow;
+}

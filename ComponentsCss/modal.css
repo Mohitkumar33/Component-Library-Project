@@ -1,0 +1,59 @@
+.modal-display {
+    background-color: gray;
+    padding: 20px;
+}
+
+.modal-1 {
+    height: 230px;
+    width: 400px;
+    background-color: rgb(221, 218, 218);
+    display: flex;
+    flex-direction: column;
+    color: rgb(71, 71, 71);
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+.modal-1 p {
+    flex-grow: 1;
+}
+
+.modal-1 h1 {
+    margin-bottom: 5px;
+}
+
+.modal-1-buttons {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-1-buttons button {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.modal-primary {
+    background-color: orange;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.modal-secondary {
+    background-color: gray;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/************* Rating ************/
+.star-rating {
+    height: 24px;
+    width: 24px;
+    stroke-width: 1;
+    fill: none
+}
+
+.star-rating:hover {
+    stroke-width: 2;
+    fill: yellow;
+}
