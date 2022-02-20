@@ -34,3 +34,18 @@ Now the **```components.html, blockcomponents.css, components.js, components.css
 3. **components.css** contains the import statemet of different components from the **ComponentsCss folder**.
 4. **images folder** contains the images used in this project
 <img src = "images/components_page.PNG">
+## Understanding my commits
+ Hello, here are the meaning of the commits. This is for anybody who is not getting my commits
+- feat: new feature added
+
+- fix: fixed a bug
+
+- docs: changes in documentation
+
+- style: style related
+
+- refactor: code changes that neither changes a but nor fixes an error
+
+- test: everything related to testing
+
+- chore: updating building task, package manager etc
