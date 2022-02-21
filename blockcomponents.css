@@ -26,6 +26,10 @@ a {
     --secondary-color: #eaf5db;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 
 /************ Desktop Nav************/
 nav {
