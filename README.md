@@ -62,3 +62,9 @@ Hello, here are the meaning of the commits. This is for anybody who is not getti
 - test: everything related to testing
 
 - chore: updating building task, package manager etc
+
+## Connect With Me
+
+- Twitter – [@aggarwal*mohit*](https://twitter.com/aggarwal_mohit_)
+- LinkedIn – [/mohit-kumar-aggarwal/](https://www.linkedin.com/in/mohit-kumar-aggarwal/)
+- Other Links – [/mohitkumar.in/](https://mohitkumar.in/)
